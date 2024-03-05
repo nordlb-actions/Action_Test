@@ -1,9 +1,21 @@
 name: "Test"
 description: "Leere Test-Action"
+inputs:
+  A:
+  B:
+  C:
+  D:
+  E:
+  F:
+  G:
+  H:
+  I:
+  J:
+  
 runs:
   using: "composite"
   steps:
     - name: Test
       shell: bash
       run: |
-        echo "Test!"
+        echo "${{ inputs.A }} / ${{ inputs.B }} / ${{ inputs.C }} / ${{ inputs.D }} / ${{ inputs.E }} / ${{ inputs.F }} / ${{ inputs.G }} / ${{ inputs.H }} / ${{ inputs.I }} / ${{ inputs.J }}"
