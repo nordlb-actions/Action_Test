@@ -2,15 +2,25 @@ name: "Test"
 description: "Leere Test-Action"
 inputs:
   A:
+    description: "A" 
   B:
+    description: "B"
   C:
+    description: "C"
   D:
+    description: "D"
   E:
+    description: "E"
   F:
+    description: "F"
   G:
+    description: "G"
   H:
+    description: "H"
   I:
+    description: "I"
   J:
+    description: "J"
   
 runs:
   using: "composite"
